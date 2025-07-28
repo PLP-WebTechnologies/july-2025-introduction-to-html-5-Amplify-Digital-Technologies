@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduction to modern web development with HTML5, accessibility best practices, and SEO fundamentals.">
+    <meta name="author" content="Shedrack Alita">
+    <title>Introduction to HTML-5</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML Basics</h1>
+        <p>Learn the fundamentals of HTML-5 with Power Learn Project (PLP)</p>
+    </header>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <h2>Site Navigation Links</h2>
+        <ul>
+            <li><a href="#introduction" aria-label="Go to introduction section">Introduction</a></li>
+            <li><a href="#key-semantic-elements" aria-label="Go to introduction section">Key Semantic Elements</a></li>
+            <li><a href="#benefits-of-semantic" aria-label="Go to introduction section">Benefits of HTML Semantic</a></li>
+            <li><a href="#registration-form" aria-label="Go to semantic registration form section">Registration Form</a></li>
+            <li><a href="#student-information" aria-label="Go to student information section">Students Information</a></li>
+            <li><a href="#sample-image" aria-label="Go to image section">Sample Image</a></li>
+            <li><a href="#external-resource" aria-label="Go to external source section">External Resource</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>About HTML</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+        </section>
+
+        <section id="key-semantic-elements">
+            <h3>Key Semantic Elements</h3>
+            <ul>
+                <li><strong>header</strong> - Defines introductory content</li>
+                <li><strong>nav</strong> - Contains navigation links</li>
+                <li><strong>main</strong> - Contains the primary content</li>
+                <li><strong>article</strong> - Self-contained composition</li>
+                <li><strong>section</strong> - Thematic grouping of content</li>
+                <li><strong>aside</strong> - Content tangentially related to main content</li>
+                <li><strong>footer</strong> - Defines footer for a document or section</li>
+            </ul>
+        </section>
+
+        <section id="benefits-of-semantic">
+            <h3>Benefits of Semantic HTML</h3>
+            <p>Using semantic HTML5 elements provides numerous advantages:</p>
+            <ul>
+                <li>Improved accessibility for screen readers</li>
+                <li>Better search engine understanding</li>
+                <li>Cleaner, more maintainable code</li>
+                <li>Enhanced user experience</li>
+            </ul>
+        </section>
+
+        <section id="registration-form">
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <br><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="student-information">
+            <h2>Students Information</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john.doe@example.com</td>
+                        <td>+1-555-123-4567</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>jane.smith@example.com</td>
+                        <td>+1-555-987-6543</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Johnson</td>
+                        <td>mike.johnson@example.com</td>
+                        <td>+1-555-456-7890</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="">
+            <h2>Sample Image</h2>
+            <img src="my_photo.png" alt="My photo" width="300" height="300">
+        </section>
+
+        <section id="external-resource">
+            <h2>External Resource</h2>
+            <p>Visit <a href="https://google.com" target="_blank">Google</a> for more information.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Power Learn Project. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
